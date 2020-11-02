@@ -1,0 +1,28 @@
+using System;
+
+namespace IWillKickYourAss
+{
+    class Program
+    {
+
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+
+            int hp1 = r.Next(100, 201);
+            int hp2 = r.Next(100, 201);
+            int attackPower1 = r.Next(10, 51);
+            int attackPower2 = r.Next(10, 51);
+
+            hp1 = hp1 - attackPower2;
+            hp2 = hp2 - attackPower1;
+
+            if (hp1 > hp2)
+            {
+                Console.WriteLine("Player 1 wins");
+            } else{
+                Console.WriteLine("Player 2 wins");
+            }
+        }
+    }
+}
