@@ -1,0 +1,22 @@
+using System;
+
+namespace Frostmourne
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name, rarity, description, targetClass;
+            bool isTwoHand = true;
+            int damage = 35000;
+            name = "Frostmourne";
+            rarity = "Rare";
+            description = "Heavy as it looks";
+            targetClass = "Death King";
+
+            Console.WriteLine("Weapon Name: {0}\n Rarity: {1}\n Description: {2}\n TargetClass: {3}\n Is this weapon Two-Hand? {4}\n Damage: {5}",
+                name, rarity, description, targetClass, isTwoHand, damage);
+            Console.ReadKey();
+        }
+    }
+}
