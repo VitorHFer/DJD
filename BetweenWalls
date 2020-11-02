@@ -1,0 +1,25 @@
+using System;
+
+namespace BetweenWalls
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+
+        {
+
+            Console.WriteLine("Insira valores...");
+            int n1 = Int32.Parse(Console.ReadLine());
+            int n2 = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("Valores entre: {0} até {1}", n1, n2);
+            for (int i = n1; i <= n2; i++)
+            {
+                Console.WriteLine("valor {0}", i);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
