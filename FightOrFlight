@@ -1,0 +1,33 @@
+using System;
+
+namespace FigthOrFlight
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int p1x = r.Next(0, 500);
+            int p1y = r.Next(0, 500);
+            
+            int p2x = r.Next(0, 500);
+            int p2y = r.Next(0, 500);
+
+            int dx, dy;
+
+            dx = p2x - p1x;
+            dy = p2y - p1y;
+
+            float h = (float)Math.Sqrt(dx*dx + dy*dy);
+          
+            Console.WriteLine("{0}", h);
+
+            if( h < 20)
+            {
+                Console.WriteLine("O player 2 fugiu!");
+            }
+
+
+        }
+    }
+}
