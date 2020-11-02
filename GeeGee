@@ -1,0 +1,20 @@
+using System;
+
+namespace GeeGee
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int player = 100;
+            int Blow = player;
+
+            Console.WriteLine("Player Health: {0}", player);
+            Console.WriteLine("Wild monster appeared");
+            player = player - Blow;
+            Console.WriteLine("Your player got stabbed! HP: {0}", player);
+            Console.WriteLine("You are dead!");
+            Console.ReadLine();
+        }
+    }
+}
