@@ -1,0 +1,12 @@
+C:\Users\Vítor\source\repos\Vegito\Vegito\bin\Debug\netcoreapp3.1\Vegito.exe
+C:\Users\Vítor\source\repos\Vegito\Vegito\bin\Debug\netcoreapp3.1\Vegito.deps.json
+C:\Users\Vítor\source\repos\Vegito\Vegito\bin\Debug\netcoreapp3.1\Vegito.runtimeconfig.json
+C:\Users\Vítor\source\repos\Vegito\Vegito\bin\Debug\netcoreapp3.1\Vegito.runtimeconfig.dev.json
+C:\Users\Vítor\source\repos\Vegito\Vegito\bin\Debug\netcoreapp3.1\Vegito.dll
+C:\Users\Vítor\source\repos\Vegito\Vegito\bin\Debug\netcoreapp3.1\Vegito.pdb
+C:\Users\Vítor\source\repos\Vegito\Vegito\obj\Debug\netcoreapp3.1\Vegito.AssemblyInfoInputs.cache
+C:\Users\Vítor\source\repos\Vegito\Vegito\obj\Debug\netcoreapp3.1\Vegito.AssemblyInfo.cs
+C:\Users\Vítor\source\repos\Vegito\Vegito\obj\Debug\netcoreapp3.1\Vegito.csproj.CoreCompileInputs.cache
+C:\Users\Vítor\source\repos\Vegito\Vegito\obj\Debug\netcoreapp3.1\Vegito.dll
+C:\Users\Vítor\source\repos\Vegito\Vegito\obj\Debug\netcoreapp3.1\Vegito.pdb
+C:\Users\Vítor\source\repos\Vegito\Vegito\obj\Debug\netcoreapp3.1\Vegito.genruntimeconfig.cache
