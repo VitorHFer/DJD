@@ -1,0 +1,22 @@
+using System;
+
+namespace Time_Over
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            for (int t=99; t >= 0; t--)
+            {
+                Console.WriteLine("{0} seconds left!", t);
+
+                if(t == 0)
+                {
+                    Console.WriteLine("Time Over!");
+                }
+            }
+            Console.ReadLine();
+        }
+    }
+}
