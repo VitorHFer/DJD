@@ -1,0 +1,49 @@
+using System;
+
+namespace Loot
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+
+            int Item1 = r.Next(1, 101);
+            int Item2 = r.Next(1, 101);
+
+            Console.WriteLine("Resultado: {0}\n Resultado: {1}", Item1, Item2);
+
+            if (Item1 <= 10)
+            {
+                Console.WriteLine("Dropped a rare item.");
+            }
+            else if (Item1 <= 40 && Item1 > 10)
+            {
+                Console.WriteLine("Dropped a uncommon item.");
+            }
+            else if (Item1 <= 100 && Item1 > 40)
+            {
+                Console.WriteLine("Dropped a common item.");
+            }
+
+
+            if (Item2 <= 10)
+            {
+                Console.WriteLine("Dropped a rare item.");
+            }
+            else if (Item2 <= 40 && Item2 > 10)
+            {
+                Console.WriteLine("Dropped a uncommon item.");
+            }
+            else if (Item2 <= 100 && Item2 > 40)
+            {
+                Console.WriteLine("Dropped a common item.");
+            }
+
+
+            Console.ReadLine();
+
+        }
+              
+    }
+}
