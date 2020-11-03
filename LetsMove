@@ -1,0 +1,35 @@
+using System;
+
+namespace Let_sMove
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            Random r = new Random();
+
+            int X = 0;
+            int Y = 0;
+
+            int pX = r.Next(0, 1000);
+            int pY = r.Next(0, 1000);
+
+            
+            for (X = 0; X <= pX; X++)
+            {
+                Console.WriteLine("A personagem está nas coordenadas {0}, {1}", X, Y);
+            }
+
+
+            for (Y = 0; Y <= pY; Y++)
+            {
+                Console.WriteLine("A personagem está nas coordenadas {0}, {1}", X, Y);
+            }
+
+            Console.WriteLine("A personagem chegou ao destino!");
+
+            Console.ReadLine();
+        }
+    }
+}
