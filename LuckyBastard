@@ -1,0 +1,22 @@
+using System;
+
+namespace LuckyBastard
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int health = 100;
+            int attack1 = r.Next(1, 98);
+            int attack2 = r.Next(1, attack1);
+            int attack3 = 99 - (attack2 + attack1);
+
+            Console.WriteLine("Player Health: {0}", health);
+            Console.WriteLine("A enemy appeared from the shadows");
+            Console.WriteLine("The enemy attacked you with 3 random attacks, dealing {0}, {1}, {2} damage, respectively", attack1, attack2, attack3);
+            Console.WriteLine("The enemy fleed and you survived with 1 HP, you lucky bastard!");
+            Console.ReadLine();
+        }
+    }
+}
