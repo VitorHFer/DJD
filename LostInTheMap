@@ -1,0 +1,35 @@
+using System;
+
+namespace LostInTheMap
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int PosX = r.Next(0, 501);
+            int PosY = r.Next(0, 501);
+
+            Console.WriteLine("Coordenadas da personagem: ({0}, {1})", PosX, PosY);
+
+            if (PosX > 250 && PosY < 250)
+            {
+                Console.WriteLine("The character is on the Top-Right Side of the map!");
+            }
+            if (PosX > 250 && PosY > 250)
+            {
+                Console.WriteLine("The character is on the Bottom-Right Side of the map!");
+            }
+            if (PosY < 250 && PosX < 250)
+            {
+                Console.WriteLine("The character is on the Top-Left Side of the map!");
+            }
+            if (PosY > 250 && PosX < 250)
+            {
+                Console.WriteLine("The character is on the Bottom-Left Side of the map!");
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
