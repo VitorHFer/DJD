@@ -1,0 +1,30 @@
+using System;
+
+namespace Roll
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int P1 = r.Next(1, 7);
+            int P2 = r.Next(1, 7);
+
+            if (P1 < P2)
+            {
+                Console.WriteLine("Item given to Player 2");
+
+            }
+            if (P1 > P2)
+            {
+                Console.WriteLine("Item given to Player 1");
+            }
+            if (P1 == P2)
+            {
+                Console.WriteLine("Reroll please");
+            }
+        }
+
+       
+    }
+}
