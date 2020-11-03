@@ -1,0 +1,23 @@
+using System;
+
+namespace LetsGetPumped
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float attackPower;
+            float increase;
+
+
+            attackPower = 65;
+            increase = 0.5F;
+            attackPower = attackPower / increase;
+
+            Console.WriteLine("You power was increased by 50%\n your attack power is now {0}", attackPower);
+
+
+
+        }
+    }
+}
