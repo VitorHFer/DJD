@@ -9,7 +9,7 @@ namespace Turma // Dado
         {
             Random r = new Random();
             int n = r.Next(30);                                              //sortear o nº de alunos na turma
-            int sup = 0;
+            int entre = 0;
             int soma = 0;
             int media;
 
@@ -24,12 +24,12 @@ namespace Turma // Dado
                
                 if (res >= 15)
                 {
-                    sup++;                                                    // aumenta o número de médias entre 15 e 20 
+                    entre++;                                                    // aumenta o número de médias entre 15 e 20 
                 }
                 
             }
             
-            Console.WriteLine("{0} alunos tiveram média entre 15 e 20\n",sup);
+            Console.WriteLine("{0} alunos tiveram média entre 15 e 20\n",entre);
             
             media = soma / n;
 
