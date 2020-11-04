@@ -17,7 +17,7 @@ namespace Turma // Dado
 
             for(int i=1; i<=n; i++)
             {
-                int res = r.Next(0, 20);                                      // sorteia as médias de cada aluno
+                int res = r.Next(0, 21);                                      // sorteia as médias de cada aluno
                 soma += res;                                                  // somar os resultados
 
                 Console.WriteLine("Nota do aluno {0}: {1}", i, res);
