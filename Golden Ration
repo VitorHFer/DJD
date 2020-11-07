@@ -1,0 +1,28 @@
+using System;
+
+namespace GoldenRation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random r = new Random();
+
+            int a = 0;
+            int b = 1;
+            int c = 1;
+
+            int n = r.Next(1, 21);
+
+            for(int i=0; i<n; i++)
+            {
+                Console.WriteLine(c);
+                c = a + b;
+                a = b;
+                b = c;
+            }
+
+
+        }
+    }
+}
