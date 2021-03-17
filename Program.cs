@@ -1,32 +1,18 @@
 ﻿using System;
 
-namespace ParalelepipedoFinal
+namespace AlunoIsmai
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Random r = new Random();
-            int a1 = r.Next(0, 10);
-            int b1 = r.Next(0, 10);
-            int c1 = r.Next(0, 10);
-            Paralelepipedo a = new Paralelepipedo();
-            a.volume();
-            a.areaTotal();
-            a.IsCube();
-            a.Is3D();
+            Aluno a = new Aluno("Vítor Hugo Fernandes", 039490, 1, "DJD");
+            Aluno b = new Aluno("Miguel Ferreira", 035789, 1, "DJD");
 
-            Paralelepipedo b = new Paralelepipedo(10);
-            b.volume();
-            b.areaTotal();
-            b.IsCube();
-            b.Is3D();
+            a.PrimeiroUltimoNome();
 
-            Paralelepipedo c = new Paralelepipedo(a1, b1, c1);
-            c.volume();
-            c.areaTotal();
-            c.IsCube();
-            c.Is3D();
+            Console.WriteLine(a.ToString());
+            Console.WriteLine(a.InscritoAntes(b));
         }
     }
 }
